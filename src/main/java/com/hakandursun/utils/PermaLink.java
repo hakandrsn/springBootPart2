@@ -1,2 +1,4 @@
-package com.hakandursun.utils;public class PermaLink {
+package com.hakandursun.utils;
+
+public class PermaLink {
 }
