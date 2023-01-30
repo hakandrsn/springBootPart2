@@ -29,4 +29,13 @@ public class ThymeleadController {
         model.addAttribute("name","Hakan");
         return "thymeleaf";
     }
+
+
+    //http://localhost:8080/thymeleaf4
+
+    @GetMapping("/thymeleaf4")
+    public String getThymeleaf4Model(Model model){
+        model.addAttribute("key","keyimsi");
+        return "thymeleaf4";
+    }
 }
